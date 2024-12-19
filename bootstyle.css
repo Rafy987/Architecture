@@ -1,0 +1,41 @@
+body{
+    
+}
+/*Nav bar styling*/
+.navbar{
+    background-color: cadetblue;
+    
+}
+.nav-link{
+    color: black;
+   
+}
+.nav-link:hover{
+    background-color: burlywood;
+    
+}
+.container{
+    margin-top: 20px;
+    border: solid 3px green;
+}
+.row{
+    border: solid 2px red;
+}
+.col{
+}
+#header{
+background-color: orange;
+}
+#menu{
+background-color: pink;
+}
+#sidebar{
+    background-color: lightblue;
+    margin-bottom: 30px;
+}
+#content{
+
+}
+#footer{
+    background-color: orange;
+}

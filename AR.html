@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Styling</title>
+    <link href="bootstrap.css" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.7/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <script>
+        document.querySelectorAll('.carousel-item img').forEach(img => {
+            img.addEventListener('mouseenter', () => {
+                img.style.transform = 'scale(1.05)';
+                img.style.borderColor = '#555';
+            });
+            img.addEventListener('mouseleave', () => {
+                img.style.transform = 'scale(1)';
+                img.style.borderColor = '#ddd';
+            });
+        });
+    </script>
+    
+</head>
+<body>
+    <!-- Navbar -->
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col">
+                <nav class="navbar navbar-light bg-light">
+                    <a class="navbar-brand" href="#">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-EOAX6ee4E9_AKhVZ3kSQND6IwrZuep5f4KX12POglYDXJE8FaWdianPIJlvZtasbDLo&usqp=CAU" 
+                             alt="Logo" 
+                             width="100" 
+                             height="100" 
+                             class="d-inline-block align-top">
+                    </a>
+                    <ul class="nav nav-pills ml-auto">
+                        <li class="nav-item">
+                            <a href="#" class="nav-link active">Home</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="aboutDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                About
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="aboutDropdown">
+                                <a class="dropdown-item" href="#"><strong>Classical Architecture</strong></a>
+                                <a class="dropdown-item" href="#"><strong>Modern Architecture</strong></a>
+                                <a class="dropdown-item" href="#"><strong>Contemporary Architecture</strong></a>
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">Projects</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">Contact us</a>
+                        </li>
+                    </ul>
+                    <form class="form-inline" action="">
+                        <input type="search" class="form-control mr-2" placeholder="Search">
+                        <button class="btn btn-outline-success">Search</button>
+                    </form>
+                </nav>
+            </div>
+        </div>
+    </div>
+    <!--Main Section-->
+    <div class="container-fluid">
+        <div class="row">
+               <div class="col">
+                <h2 style="text-align: center; margin-bottom: 20px; font-family: Arial, sans-serif; font-weight: bold;text-transform: uppercase;font-size: 36px; color: #333; letter-spacing: 2px;">Interior Designer</h2>
+                <img  class="img-fluid rounded-sm"  src="https://thestudiobangalore.com/blog/wp-content/uploads/2024/03/Interior-Design-1536x810.jpg" 
+                alt="Main Section" 
+                style="width: 100%; height: 100%; object-fit: cover; margin-bottom: 50px;">
+               </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    <!-- About -->
+<div class="container">
+    <div class="row py-5">
+        <!-- About Text -->
+        <div class="col-lg-7 col-md-12">
+            <h2 class="text-center mt-4" style="font-family: Arial, sans-serif; font-weight: bold; text-transform: uppercase; font-size: 36px; color: #333; letter-spacing: 2px;">
+                About Us
+            </h2>
+            <section id="box" class="border shadow-lg border-light p-5">
+                <p>Welcome to <strong>M.Y Architecture Projects</strong>, where innovative design meets exceptional craftsmanship. We specialize in creating architectural marvels and interiors that blend functionality, aesthetics, and sustainability, tailored to suit your unique vision.</p>
+                <p>At <strong>M.Y Architecture Projects</strong>, we believe that every space has a story to tell. Our dedicated team of architects and interior designers works closely with you to transform your ideas into reality, ensuring every detail reflects your personality and purpose.</p>
+                <p>From contemporary homes to sophisticated commercial spaces, we bring creativity and expertise to every project. With a commitment to excellence, we manage the entire process—from conceptual design to the finishing touches—with precision and care.</p>
+                <p>Let <strong>M.Y Architecture Projects</strong> be your partner in designing spaces that inspire, comfort, and endure. Together, we’ll create the extraordinary.</p>
+            </section>
+        </div>
+        <!-- About Image -->
+        <div class="col-lg-5 col-md-12 d-flex justify-content-center">
+            <img src="https://www.r3dprints.com.my/wp-content/uploads/2023/06/archi-18.jpg" 
+                alt="Architecture Design" 
+                class="img-fluid shadow-lg rounded" 
+                style="height: 400px; width: 100%; max-width: 500px; margin-top: 100px;">
+        </div>
+    </div>
+</div>
+<!-- Projects Section -->
+<div id="projects" class="container my-5">
+    <h2 style="text-align:center; font-weight: bold; margin-bottom: 40px;">M.Y Architecture Projects</h2>
+    <div class="row">
+        <!-- Project 1 -->
+        <div class="col-md-4 mb-4">
+            <div class="card h-100 shadow-lg" style="border-radius: 10px;">
+                <div style="height: 250px; overflow: hidden; border-radius: 8px;">
+                    <img src="https://images.adsttc.com/media/images/5b35/6074/f197/cca2/3e00/0227/slideshow/Villa_Chameleon_2.jpg?1530224729" 
+                         class="card-img-top" 
+                         alt="Project 1" 
+                         style="width: 100%; height: 100%; object-fit: cover;">
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title">Chameleon Villa</h5>
+                    <p class="card-text">“Chameleon Villa” located in Buwit, a village in the lush interiors of the southwest coastal area of Bali. Constructed on an acre of land, overlooking a dense forest and a gentle river below...</p>
+                    <a href="#" class="btn btn-primary">View Project</a>
+                </div>
+            </div>
+        </div>
+        <!-- Project 2 -->
+        <div class="col-md-4 mb-4">
+            <div class="card h-100 shadow-lg" style="border-radius: 10px;">
+                <div style="height: 250px; overflow: hidden; border-radius: 8px;">
+                    <img src="https://images.adsttc.com/media/images/6759/cc85/04ed/8e01/8822/5990/slideshow/national-athletics-stadium-hungary-napur-architect_1.jpg?1733938325" 
+                         class="card-img-top" 
+                         alt="Project 2" 
+                         style="width: 100%; height: 100%; object-fit: cover;">
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title">National Athletics Stadium Hungary</h5>
+                    <p class="card-text">The main elements of the planning are the new Athletics Stadium and Park to be built on the site of the Vituki industrial site in Ferencváros...</p>
+                    <a href="#" class="btn btn-primary">View Project</a>
+                </div>
+            </div>
+        </div>
+        <!-- Project 3 -->
+        <div class="col-md-4 mb-4">
+            <div class="card h-100 shadow-lg" style="border-radius: 10px;">
+                <div style="height: 250px; overflow: hidden; border-radius: 8px;">
+                    <img src="https://images.adsttc.com/media/images/6729/22a8/abb6/a212/73e0/94f6/slideshow/houses-within-the-house-jesper-kusk-arkitekter_10.jpg?1730749103" 
+                         class="card-img-top" 
+                         alt="Project 3" 
+                         style="width: 100%; height: 100%; object-fit: cover;">
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title">Peter's House</h5>
+                    <p class="card-text">As a special feature, a glass-walled “roof-room” opens up towards a richly planted terrace and directs the view to the unconventional architectural treatment of the facade...</p>
+                    <a href="#" class="btn btn-primary">View Project</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Carousel Section -->
+<div class="container-fluid  bg-gradient">
+    <div class="row py-3">
+        <div class="col text-center">
+            <h2 style="margin-bottom: 20px; font-family: Arial, sans-serif; font-weight: bold; text-transform: uppercase; font-size: 36px; color: #333; letter-spacing: 2px;">M.Y Architecture Models</h2>
+            <div id="mycarousel" class="carousel slide" data-bs-ride="carousel" style="max-width: 600px; margin: 0 auto;">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="https://plus.unsplash.com/premium_photo-1726736585803-c7f5d0070530?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8YXJjaGl0ZWN0dXJlJTIwbW9kZWxzfGVufDB8fDB8fHww" 
+                             class="d-block w-100" 
+                             style="max-height: 300px; object-fit: cover; border-radius: 15px; border: 2px solid #ddd; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="https://plus.unsplash.com/premium_photo-1664301098953-a2d275d3a18a?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" 
+                             class="d-block w-100" 
+                             style="max-height: 300px; object-fit: cover; border-radius: 15px; border: 2px solid #ddd; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="https://plus.unsplash.com/premium_photo-1664301102552-ff9df3b67f80?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" 
+                             class="d-block w-100" 
+                             style="max-height: 300px; object-fit: cover; border-radius: 15px; border: 2px solid #ddd; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);">
+                    </div>
+                </div>
+                <a href="#mycarousel" class="carousel-control-prev" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </a>
+                <a href="#mycarousel" class="carousel-control-next" data-bs-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Include Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+<!-- Contact Us Section -->
+<div class="container my-5">
+    <h2 class="text-center text-uppercase fw-bold mb-4">Contact Us</h2>
+    <div class="row justify-content-center">
+        <div class="col-lg-6">
+            <form>
+                <!-- Name -->
+                <div class="mb-3">
+                    <label for="name" class="form-label fw-bold">Your Name</label>
+                    <input type="text" class="form-control" id="name" placeholder="Enter your full name" required>
+                </div>
+                <!-- Email -->
+                <div class="mb-3">
+                    <label for="email" class="form-label fw-bold">Email Address</label>
+                    <input type="email" class="form-control" id="email" placeholder="Enter your email" required>
+                </div>
+                <!-- Subject -->
+                <div class="mb-3">
+                    <label for="subject" class="form-label fw-bold">Subject</label>
+                    <input type="text" class="form-control" id="subject" placeholder="Enter the subject">
+                </div>
+                <!-- Message -->
+                <div class="mb-3">
+                    <label for="message" class="form-label fw-bold">Message</label>
+                    <textarea class="form-control" id="message" rows="5" placeholder="Write your message" required></textarea>
+                </div>
+                <!-- Submit Button -->
+                <div class="d-grid">
+                    <button type="submit" class="btn btn-primary btn-lg">Send Message</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+<!-- Footer Section -->
+<footer class="bg-dark text-white py-5">
+    <div class="container">
+        <!-- Footer Content -->
+        <div class="row text-center text-md-start">
+            <!-- Company Info -->
+            <div class="col-md-4 mb-4">
+                <h4 class="text-uppercase fw-bold">M.Y Architecture Projects</h4>
+                <p class="small">
+                    Creating extraordinary spaces that inspire, comfort, and endure. Join us on our journey of blending art and architecture for a sustainable future.
+                </p>
+            </div>
+            <!-- Quick Links -->
+            <div class="col-md-4 mb-4">
+                <h5 class="text-uppercase fw-bold">Quick Links</h5>
+                <ul class="list-unstyled">
+                    <li><a href="#" class="text-white text-decoration-none">Home</a></li>
+                    <li><a href="#" class="text-white text-decoration-none">About Us</a></li>
+                    <li><a href="#" class="text-white text-decoration-none">Projects</a></li>
+                    <li><a href="#" class="text-white text-decoration-none">Contact</a></li>
+                </ul>
+            </div>
+            <!-- Contact Info -->
+            <div class="col-md-4 mb-4">
+                <h5 class="text-uppercase fw-bold">Contact Us</h5>
+                <p class="small mb-1"><i class="bi bi-geo-alt-fill me-2"></i> 123 Architecture Lane, Fort Valley, Georgia</p>
+                <p class="small mb-1"><i class="bi bi-envelope-fill me-2"></i> contact@myarchitecture.com</p>
+                <p class="small"><i class="bi bi-telephone-fill me-2"></i> +1 234 567 890</p>
+                <div>
+                    <!-- Social Icons -->
+                    <a href="#" class="text-white me-3"><i class="bi bi-facebook"></i></a>
+                    <a href="#" class="text-white me-3"><i class="bi bi-instagram"></i></a>
+                    <a href="#" class="text-white me-3"><i class="bi bi-twitter"></i></a>
+                    <a href="#" class="text-white"><i class="bi bi-linkedin"></i></a>
+                </div>
+            </div>
+        </div>
+        <!-- Footer Bottom -->
+        <div class="text-center border-top pt-3 mt-4">
+            <p class="mb-0 small">&copy; 2024 Rafay Minhas. All Rights Reserved.</p>
+        </div>
+    </div>
+</footer>
+
+<!-- Bootstrap Icons -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+
+</body>
+</html>
